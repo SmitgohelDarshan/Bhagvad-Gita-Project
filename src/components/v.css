@@ -1,0 +1,32 @@
+.pager-btn {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: #fff;
+    color: #444;
+    border: 1px solid #eee;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .08);
+    z-index: 1;
+}
+
+.pager-btn.left {
+    left: 14px;
+}
+
+.pager-btn.right {
+    right: 14px;
+}
+
+.devanagari{ font-family: "Noto Serif Devanagari", serif; }
+.sanskrit{
+      color: #f57903;
+      line-height: 1.35;
+      letter-spacing: .3px;
+}
+.color-orange{color:rgb(245 121 3);}
+.bg-orange{background-color:rgb(245 121 3);}
